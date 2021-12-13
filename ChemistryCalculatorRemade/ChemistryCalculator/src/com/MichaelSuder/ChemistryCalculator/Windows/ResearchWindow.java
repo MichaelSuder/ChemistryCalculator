@@ -47,7 +47,7 @@ public class ResearchWindow extends JFrame {
 
 		JButton backBtn = new JButton("Back");
 		backBtn.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+			public void actionPerformed(ActionEvent e) {
 				contentPane.setVisible(false);
 				Window win = SwingUtilities.getWindowAncestor(contentPane);
 				win.dispose();
