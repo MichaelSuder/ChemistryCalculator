@@ -1,6 +1,7 @@
 package com.MichaelSuder.ChemistryCalculator.Utils;
 
-public class AtomFinder {
+// This class chooses which operations are done
+public class ChooseConversion {
 
     private Finder f = new Finder();
     private GMAConversion gma = new GMAConversion();
